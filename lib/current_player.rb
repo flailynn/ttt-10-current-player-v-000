@@ -1,3 +1,4 @@
+# #turn_count method - determine number of turns
 def turn_count(board)
   count = 0
   board.each do |element|
@@ -6,4 +7,11 @@ def turn_count(board)
     end
   end
   count
+end
+
+# #current_player - determine the current player (X or O)
+def current_player(board)
+  board.each do |element|
+    #some code
+  end
 end
