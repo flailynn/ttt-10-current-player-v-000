@@ -11,7 +11,11 @@ end
 
 # #current_player - determine the current player (X or O)
 def current_player(board)
-  board.each do |element|
-    #some code
+
+  if {turn_count(board) % 2} == 0
+    "X"
+  else
+    "O"
   end
+    
 end
