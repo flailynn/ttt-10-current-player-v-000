@@ -11,11 +11,11 @@ end
 
 # #current_player - determine the current player (X or O)
 def current_player(board)
-
+  player = ""
   if {turn_count(board) % 2} == 0
-    "X"
+    player= "X"
   else
-    "O"
+    player = "O"
   end
-
+  player
 end
