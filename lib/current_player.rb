@@ -4,5 +4,6 @@ def turn_count(board)
     if !(element == " " || element == "" || element.nil?)
       count += 1
     end
-end
+  end
+  count
 end
